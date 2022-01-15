@@ -1,0 +1,11 @@
+<body><h3>Showing Cattle Data</h3>
+
+    {% for d in data %}
+
+    <h4>lot_id ctype gender age date_acq buy_cost sale_price</h4>
+
+    <h5>{{d.lot_id}} {{d.ctype}} {{d.gender}} {{d.age}} {{d.date_acq}} {{d.buy_cost}} {{d.sale_price}}</h5>
+    
+    {% endfor %}
+
+</body>
